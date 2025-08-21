@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import styled from "styled-components";
+import Barra from "./Components/Barra/Barra";
+
+const Header = styled.header`
+  background-color: purple;
+  height: 200px;
+`;
+
+const MainContainer = styled.div`
+  height: 100px;
+`;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Header>
+      <MainContainer>   
+        <Barra />
+      </MainContainer>
+    </Header>
   );
 }
 
