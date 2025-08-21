@@ -1,22 +1,16 @@
 import styled from "styled-components";
-import Barra from "./Components/Barra/Barra";
 
-const Header = styled.header`
-  background-color: purple;
-  height: 200px;
-`;
-
-const MainContainer = styled.div`
-  height: 100px;
+const Body = styled.div`
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
 `;
 
 function App() {
   return (
-    <Header>
-      <MainContainer>   
-        <Barra />
-      </MainContainer>
-    </Header>
+    <Body>
+      <h1>Welcome to My App</h1>
+    </Body>
   );
 }
 
