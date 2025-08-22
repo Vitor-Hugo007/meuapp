@@ -1,6 +1,7 @@
 import styled, { createGlobalStyle } from "styled-components";
 import { TiThMenu } from "react-icons/ti";
 
+
 const GlobalStyle = createGlobalStyle`
   body {
     background-color: aliceblue;
@@ -53,6 +54,14 @@ const Main = styled.main`
   padding: 20px;
 `;
 
+// Host para main onde os componentes da ião ficar
+const TextoH1 = styled.h1`
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: darkblue;
+  font-weight: bold;
+
+`;
+
 function App() {
   return (
     <>
@@ -72,7 +81,7 @@ function App() {
       </Header>
 
       <Main>
-        <h1>Bem-vindo ao Meu Site!</h1>
+        <TextoH1>Bem-vindo ao Meu Site!</TextoH1>
         <p>Aqui vai o conteúdo da página...</p>
       </Main>
     </>
