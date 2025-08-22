@@ -1,6 +1,6 @@
 import styled, { createGlobalStyle } from "styled-components";
 import { TiThMenu } from "react-icons/ti";
-
+import { Login } from "./Components/Login/Login";
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -77,12 +77,14 @@ function App() {
             <li>Sobre</li>
             <li>Contato</li>
           </ItemMenu>
+        <Login />
         </Navegacao>
       </Header>
 
       <Main>
         <TextoH1>Bem-vindo ao Meu Site!</TextoH1>
         <p>Aqui vai o conteúdo da página...</p>
+        <h2>Aqui vai um sub-Titulo</h2>
       </Main>
     </>
   );
