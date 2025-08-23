@@ -57,7 +57,7 @@ const Main = styled.main`
 // Host para main onde os componentes da ião ficar
 const TextoH1 = styled.h1`
   font-family: Georgia, 'Times New Roman', Times, serif;
-  color: darkblue;
+  color: black;
   font-weight: bold;
 
 `;
